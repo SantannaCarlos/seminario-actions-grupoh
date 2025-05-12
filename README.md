@@ -28,7 +28,7 @@ Este projeto simula um sistema automatizado inspirado no jogo **Satisfactory**, 
 
 ## 🐳 Como executar com Docker Compose
 
-> Pré-requisitos: Docker e Docker Compose instalados
+> Pré-requisitos: [Docker](https://www.docker.com) e Docker Compose instalados
 
 1. Clone este repositório:
 
