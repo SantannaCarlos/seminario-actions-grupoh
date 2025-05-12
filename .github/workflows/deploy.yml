@@ -24,6 +24,10 @@ jobs:
         git reset --hard origin/main
         git clean -fd
 
+    - name: Copiar index.html do frontend para a raiz
+      run: |
+        cp frontend/index.html .
+
     - name: Adicionar arquivos e fazer commit
       run: |
         git add index.html
