@@ -72,16 +72,17 @@ Esse dado é carregado dinamicamente no site via JavaScript (`fetch()`).
 ```
 /
 ├── backend/
-│   ├── app.py                # API Flask
-│   ├── requirements.txt      # Flask + PyYAML
+│   ├── app.py
+│   ├── requirements.txt
 │   └── Dockerfile
 ├── frontend/
-│   ├── index.html            # Página HTML interativa
+│   ├── index.html
 │   └── Dockerfile
 ├── .github/
 │   └── workflows/
-│       └── deploy.yml        # Workflow do GitHub Actions
-├── docker-compose.yml        # Orquestra os containers
+│       ├── deploy.yml 
+│       └── deploy-ghpages.yml  
+├── docker-compose.yml
 └── README.md
 ```
 
